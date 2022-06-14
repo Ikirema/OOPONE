@@ -1,0 +1,20 @@
+.fieldset1{
+    color:gold;
+    font-size: large;
+    border-width: 3px;
+    padding: 10%;
+    background-color: black;
+    border-color: gold;
+}
+body{
+    background-color: lemonchiffon;
+}
+.button{
+    font-size: 120%;
+    width: 120px;
+    text-align:center ;
+}
+
+.button:hover{
+    background-color: gold;
+}

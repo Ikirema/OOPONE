@@ -1,0 +1,26 @@
+/* LOGIN CATEGORIES AND PRODUCTS */
+.fieldset1{
+    color:gold;
+    font-size: large;
+    border-width: 3px;
+    padding: 10%;
+    background-color: black;
+    border-color: gold;
+}
+body{
+    background-color: lemonchiffon;
+    background:url(../images/f1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.button{
+    font-size: 120%;
+    width: 120px;
+    text-align:center ;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: gold;
+    letter-spacing: .2rem;
+}
