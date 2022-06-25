@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Categories</title>
+
+        <link rel="stylesheet" href="../css/layout.css"> 
+    </head>
+    <body class="categories">
+        
+        <form method="post" action="process_categories.php">
+            <div style="position: absolute; left:450px; top: 20px;">
+            <h1>CATEGORIES <span>FORM</span></h1>
+            <fieldset class="fieldset1">
+                <ul>
+                        <li><label for="id"> ADD CATEGORY ID : </label>
+                        <input type="id" id="id" name="category_id"></li><br>
+   
+                        <li><label for="name">ADD CATEGORY NAME :</label>
+                        <input type="name" id="name" name="category_name"></li><br>
+
+                        <li><label for="name">IS DELETED :</label>
+                        <input type="del" id="del" name="is_deleted"></li><br>
+
+                        <li><input type="SUBMIT" id="sbmt" class="button"/></li><br>
+           
+            <p>Already have a category? ADD SUBCATEGORY.<a href="subcategories.html">ADD HERE</a>.</p>
+			
+			 <a href="home.html">HOME</a>
+    
+                </ul>
+            </fieldset>
+            </div>
+        </form>
+
+    </body>
+</html>
