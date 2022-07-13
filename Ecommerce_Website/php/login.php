@@ -1,4 +1,4 @@
-<html>
+ <html>
     <head>
         <title>LOGIN</title>
 
@@ -6,7 +6,7 @@
     </head>
     <body class="bodylogin">
         
-        <form method="" action="">
+        <form method="POST" action="process_login.php">
            <div style="position: absolute; left:450px; top: 20px;">
             <h1>PRIME DESIGNERS <span>Login</span></h1>
             <fieldset class="fieldset1">
@@ -18,7 +18,7 @@
                      <li><label for="password">Password :</label>
                      <input type="password" id="password" name="password"></li><br>
 
-                     <li><input type="SUBMIT" id="login" class="button"></li><br>
+                     <a href="http://localhost/Ecommerce_Website/php/index.php"><br><br><input type="SUBMIT" id="login" class="button"></a></p><br>
 
                      <p>Don't have an account? <a href="http://localhost/Ecommerce_Website/php/register.php">SignUp here</a>.</p>
                      <p>I AM AN ADMIN <a href="http://localhost/Ecommerce_Website/php/admin_login.php">ADMIN LOGIN</a>.</p>
@@ -32,4 +32,4 @@
         </form>
         
     </body>
-</html>
+</html> 

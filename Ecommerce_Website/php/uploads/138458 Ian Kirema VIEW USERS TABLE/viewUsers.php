@@ -16,7 +16,7 @@
                 <th>email</th>
                 <th>password</th>
                 <th>gender</th>
-                <th>role_id</th>
+                <th>role</th>
                 <th>is_deleted</th>
                 <th>Action</th>
                 
@@ -36,31 +36,13 @@
                     <td><?php echo $value["email"] ?></td>
                     <td><?php echo $value["password"] ?></td>
                     <td><?php echo $value["gender"] ?></td>
-                    <td><?php echo $value["role_id"] ?></td>
+                    <td><?php echo $value["role"] ?></td>
                     <td><?php echo $value["is_deleted"] ?></td>
-
-
-                    <td><?php
-                        echo "<div class='product_wrapper'>
-                            <form action='edituser.php' method='POST'>
-                            
-                            <input type='hidden' name='user_id' value=".$value['user_id']." />
-                        
-                        
-                            <button type='Submit' class='btn2'>Edit </button>
-                            
-                            </form>
-                            </div>";
-
-                        ?></td>
-
+                    <td><a href="usersdb.php"?edit="<?php $value["user_id"] ?>">Edit</a></td>
                 </tr>
                 <?php }
                 ?>
             </tbody>
-
-            <p>ADMIN CUSTOMIZATION INTERFACE: <a href="http://localhost/Ecommerce_Website/php/admin_interface.php">SWITCH</a>.</p>
-
         </table>
 
     </body>

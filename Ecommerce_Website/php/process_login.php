@@ -10,7 +10,7 @@ if ( !isset($_POST['email'], $_POST['password']) ) {
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$sql = "SELECT `email`, `password`FROM `tbl_admin` WHERE `email` = '$email' AND `password` = '$password'";
+$sql = "SELECT `email`, `password`FROM `tbl_users` WHERE `email` = '$email' AND `password` = '$password'";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
@@ -21,9 +21,9 @@ if (mysqli_num_rows($result) > 0) {
 
         if ($row['password'] == 'password') {
             
-            header('Location: admin_interface.php');
+            header('Location: index.php');
         }else{
-            header('Location: admin_interface.php');
+            header('Location: index.php');
         }
     }
 }else{

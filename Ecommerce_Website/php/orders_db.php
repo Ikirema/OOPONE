@@ -2,14 +2,13 @@
 
 require_once("connect.php");
 
-$sqli="SELECT * FROM tbl_users";
+$sqli="SELECT * FROM tblproduct";
 $result = mysqli_query($conn , $sqli);
 $test=mysqli_fetch_all($result, MYSQLI_ASSOC);
-$data = mysqli_fetch_assoc($result);
 
 if(isset($_GET["edit"])){
  $id=$_GET["edit"];
- $sqli="SELECT * FROM tbl_users WHERE user_id=$id";
+ $sqli="SELECT * FROM tblproduct WHERE id=$id";
 
 }
 ?>

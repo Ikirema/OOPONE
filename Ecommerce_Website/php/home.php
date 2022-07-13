@@ -27,7 +27,7 @@
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
-        <a href="#products">products</a>
+        <a href="http://localhost/Ecommerce_Website/php/users_products.php">products</a>
         <a href="#review">review</a>
         <a href="#contact">contact</a>
         <a href="#blogs">blogs</a>
@@ -419,7 +419,7 @@
         <a href="#">home</a>
         <a href="#">about</a>
         <a href="#">menu</a>
-        <a href="#">products</a>
+        <a href="http://localhost/Ecommerce_Website/php/users_products.php">products</a>
         <a href="#">reveiw</a>
         <a href="#">contact</a>
         <a href="#">blogs</a>

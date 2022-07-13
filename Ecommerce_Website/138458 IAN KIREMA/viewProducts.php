@@ -33,8 +33,7 @@
                     <td><?php echo $value["product_id"] ?></td>
                     <td><?php echo $value["product_name"] ?></td>
                     <td><?php echo $value["product_description"] ?></td>
-                    <!-- <td><?php echo $value["product_image"] ?></td>  -->
-                    <td><?php echo "<img src='".$value['product_image']."' style='width:100px; height: 100px;'>"; ?></td>
+                    <td><?php echo $value["product_image"] ?></td>
                     <td><?php echo $value["unit_price"] ?></td>
                     <td><?php echo $value["available_quantity"] ?></td>
                     <td><?php echo $value["subcategory_id"] ?></td>
@@ -43,19 +42,7 @@
                     <td><?php echo $value["updated_at"] ?></td>
                     <td><?php echo $value["role_id"] ?></td>
                     <td><?php echo $value["is_deleted"] ?></td>
-                    <td><?php
-                        echo "<div class='product_wrapper'>
-                            <form action='editproduct.php' method='POST'>
-                            
-                            <input type='hidden' name='product_id' value=".$value['product_id']." />
-                        
-                        
-                            <button type='Submit' class='btn2'>Edit </button>
-                            
-                            </form>
-                            </div>";
-
-                        ?></td>
+                    <td><a href="productsdb.php"?edit="<?php $value["product_id"] ?>">Edit</a></td>
                 </tr>
                 <?php }
                 ?>

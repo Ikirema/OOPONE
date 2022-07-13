@@ -28,6 +28,10 @@
                 <p>View PRODUCTS: <a href="http://localhost/Ecommerce_Website/php/viewProducts.php">VIEW</a>.</p>
                 <a class="button" href="http://localhost/Ecommerce_Website/php/products.php">Add Product</a><br><br> 
 
+                <p>View ITEMS: <a href="http://localhost/Ecommerce_Website/php/vieworders.php">VIEW</a>.</p>
+                <a class="button" href="http://localhost/Ecommerce_Website/php/orders.php">Add Item</a><br><br> 
+
+
                 <a class="button" href="http://localhost/Ecommerce_Website/php/admin_login.php">LOG OUT</a><br><br>
     
                 </ul>

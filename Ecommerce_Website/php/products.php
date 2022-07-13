@@ -9,12 +9,11 @@
 </head>
 <Body class="product">
     <form method="post" action="process_products.php" enctype="multipart/form-data">
-        <div style="position: absolute; left:450px; top: 20px;">
+        <div style="position: absolute; left:450px; top: 10px;">
         <h1>PRODUCT <span>FORM</span></h1><br>
         <h1>AUTHORIZED <span>personel only</span></h1>
         <fieldset class="fieldset1">
-                
-               
+                   
             <!-- product_id is an AUTO INCREMENT in the database. -->
                
                 <p>insert product name:
@@ -53,14 +52,6 @@
                     </option> <?php endwhile; ?>
                 </select><br><br>
 
-                <p>Insert Created AT:
-                    <input type="text" name="created_at" placeholder="created_at">
-                </p>
-
-                <p>Insert Updated AT:
-                    <input type="text" name="updated_at" placeholder="updated_at">
-                </p>
-
 
                 <!-- instead of using added_by we use role_id that being the ADMIN who added the product.  -->
                 <label for="role_id">Insert Added BY  : </label>
@@ -92,7 +83,7 @@
                 <!-- is_deleted is a default ENUM in the database. -->
         
                 <p>
-                <input type="submit" class="button" value="Submit">
+                <input type="submit" name="upload" class="button" value="Submit">
                 </p>
 
                 <p>ADMIN CUSTOMIZATION INTERFACE: <a href="http://localhost/Ecommerce_Website/php/admin_interface.php">SWITCH</a>.</p>        
